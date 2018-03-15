@@ -26,9 +26,9 @@ router.get('/', function(request, response)
 
 
 // scrape route
-router.get('/scrape', function(request, response) 
+router.get('/scrape', function(request, response)
 {
-
+console.log("scrape hit");
 	// run the scrapedWeb function from scraper
 	scraper.scrapedWeb(function() 
 	{

@@ -26,6 +26,11 @@ var ArticleSchema = new Schema({
     required: true,
     unique: true
   },
+  imageUrl:
+  {
+    type: String
+
+  },
   
 note: [{
     // Store ObjectIds in the array
